@@ -1,0 +1,804 @@
+{
+  "tourists": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "digital_id": "T001234",
+      "first_name": "John",
+      "last_name": "Smith",
+      "full_name": "John Smith",
+      "date_of_birth": "1985-03-15",
+      "gender": "male",
+      "nationality": "American",
+      "profile_photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-01-15T08:30:00Z",
+      "updated_at": "2024-01-20T14:22:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+1-555-0123",
+        "phone_secondary": "+1-555-0124",
+        "email": "john.smith@email.com",
+        "emergency_contact_name": "Jane Smith",
+        "emergency_contact_phone": "+1-555-0125",
+        "emergency_contact_relation": "Wife"
+      },
+      "documents": {
+        "passport_number": "A1234567",
+        "passport_country": "United States",
+        "passport_issue_date": "2020-01-15",
+        "passport_expiry_date": "2030-01-15",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V7890123",
+        "visa_type": "Tourist",
+        "visa_issue_date": "2024-01-10",
+        "visa_expiry_date": "2024-07-10",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Rajasthan",
+          "city": "Jaipur",
+          "postal_code": "302001",
+          "address_line": "123 Hotel Plaza, Near City Palace",
+          "hotel_name": "Hotel Plaza Jaipur",
+          "room_number": "205",
+          "check_in_date": "2024-01-15",
+          "check_out_date": "2024-01-25",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-01-15",
+        "departure_date": "2024-01-25",
+        "arrival_flight": "AI101",
+        "departure_flight": "AI102",
+        "arrival_airport": "Jaipur International Airport",
+        "departure_airport": "Jaipur International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 10,
+        "budget_range": "high",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Hotel Plaza Jaipur",
+          "latitude": 26.9124,
+          "longitude": 75.7873,
+          "description": "Checked into hotel room 205",
+          "timestamp": "2024-01-15T14:30:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "City Palace, Jaipur",
+          "latitude": 26.9258,
+          "longitude": 75.8236,
+          "description": "Visited City Palace",
+          "timestamp": "2024-01-16T10:15:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "digital_id": "T001235",
+      "first_name": "Maria",
+      "last_name": "Garcia",
+      "full_name": "Maria Garcia",
+      "date_of_birth": "1990-07-22",
+      "gender": "female",
+      "nationality": "Spanish",
+      "profile_photo": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-01-18T09:15:00Z",
+      "updated_at": "2024-01-22T16:45:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+34-612-345-678",
+        "phone_secondary": "+34-612-345-679",
+        "email": "maria.garcia@email.com",
+        "emergency_contact_name": "Carlos Garcia",
+        "emergency_contact_phone": "+34-612-345-680",
+        "emergency_contact_relation": "Brother"
+      },
+      "documents": {
+        "passport_number": "B2345678",
+        "passport_country": "Spain",
+        "passport_issue_date": "2019-07-22",
+        "passport_expiry_date": "2029-07-22",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V8901234",
+        "visa_type": "Business",
+        "visa_issue_date": "2024-01-15",
+        "visa_expiry_date": "2024-04-15",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Maharashtra",
+          "city": "Mumbai",
+          "postal_code": "400001",
+          "address_line": "456 Business Hotel, Bandra West",
+          "hotel_name": "Business Hotel Mumbai",
+          "room_number": "1205",
+          "check_in_date": "2024-01-18",
+          "check_out_date": "2024-01-28",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-01-18",
+        "departure_date": "2024-01-28",
+        "arrival_flight": "IB1234",
+        "departure_flight": "IB1235",
+        "arrival_airport": "Mumbai International Airport",
+        "departure_airport": "Mumbai International Airport",
+        "travel_purpose": "business",
+        "travel_duration_days": 10,
+        "budget_range": "high",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Business Hotel Mumbai",
+          "latitude": 19.0760,
+          "longitude": 72.8777,
+          "description": "Checked into business hotel",
+          "timestamp": "2024-01-18T18:45:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Bandra Kurla Complex",
+          "latitude": 19.0596,
+          "longitude": 72.8295,
+          "description": "Business meeting at BKC",
+          "timestamp": "2024-01-19T09:30:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "digital_id": "T001236",
+      "first_name": "Ahmed",
+      "last_name": "Hassan",
+      "full_name": "Ahmed Hassan",
+      "date_of_birth": "1988-11-08",
+      "gender": "male",
+      "nationality": "Egyptian",
+      "profile_photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-01-20T11:20:00Z",
+      "updated_at": "2024-01-23T13:10:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+91-9876543210",
+        "phone_secondary": "+20-123-456-789",
+        "email": "ahmed.hassan@email.com",
+        "emergency_contact_name": "Fatima Hassan",
+        "emergency_contact_phone": "+20-123-456-790",
+        "emergency_contact_relation": "Sister"
+      },
+      "documents": {
+        "passport_number": "C3456789",
+        "passport_country": "Egypt",
+        "passport_issue_date": "2021-11-08",
+        "passport_expiry_date": "2031-11-08",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V9012345",
+        "visa_type": "Tourist",
+        "visa_issue_date": "2024-01-18",
+        "visa_expiry_date": "2024-07-18",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Kerala",
+          "city": "Kochi",
+          "postal_code": "682001",
+          "address_line": "789 Heritage Resort, Fort Kochi",
+          "hotel_name": "Heritage Resort Kochi",
+          "room_number": "B12",
+          "check_in_date": "2024-01-20",
+          "check_out_date": "2024-02-05",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-01-20",
+        "departure_date": "2024-02-05",
+        "arrival_flight": "MS456",
+        "departure_flight": "MS457",
+        "arrival_airport": "Cochin International Airport",
+        "departure_airport": "Cochin International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 16,
+        "budget_range": "medium",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Heritage Resort Kochi",
+          "latitude": 9.9312,
+          "longitude": 76.2673,
+          "description": "Checked into heritage resort",
+          "timestamp": "2024-01-20T20:15:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Chinese Fishing Nets, Kochi",
+          "latitude": 9.9674,
+          "longitude": 76.2458,
+          "description": "Visited Chinese fishing nets",
+          "timestamp": "2024-01-21T17:30:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "digital_id": "T001237",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "full_name": "Sarah Johnson",
+      "date_of_birth": "1992-04-12",
+      "gender": "female",
+      "nationality": "British",
+      "profile_photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-01-22T14:30:00Z",
+      "updated_at": "2024-01-24T10:20:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+44-7700-900123",
+        "phone_secondary": "+44-7700-900124",
+        "email": "sarah.johnson@email.com",
+        "emergency_contact_name": "Michael Johnson",
+        "emergency_contact_phone": "+44-7700-900125",
+        "emergency_contact_relation": "Father"
+      },
+      "documents": {
+        "passport_number": "D4567890",
+        "passport_country": "United Kingdom",
+        "passport_issue_date": "2022-04-12",
+        "passport_expiry_date": "2032-04-12",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V0123456",
+        "visa_type": "Tourist",
+        "visa_issue_date": "2024-01-20",
+        "visa_expiry_date": "2024-07-20",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Goa",
+          "city": "Panaji",
+          "postal_code": "403001",
+          "address_line": "321 Beach Resort, Calangute",
+          "hotel_name": "Beach Resort Goa",
+          "room_number": "Villa 15",
+          "check_in_date": "2024-01-22",
+          "check_out_date": "2024-02-01",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-01-22",
+        "departure_date": "2024-02-01",
+        "arrival_flight": "BA789",
+        "departure_flight": "BA790",
+        "arrival_airport": "Goa International Airport",
+        "departure_airport": "Goa International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 10,
+        "budget_range": "high",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Beach Resort Goa",
+          "latitude": 15.4909,
+          "longitude": 73.8278,
+          "description": "Checked into beach resort villa",
+          "timestamp": "2024-01-22T16:45:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Calangute Beach",
+          "latitude": 15.5389,
+          "longitude": 73.7554,
+          "description": "Beach activities at Calangute",
+          "timestamp": "2024-01-23T11:20:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "digital_id": "T001238",
+      "first_name": "Chen",
+      "last_name": "Wei",
+      "full_name": "Chen Wei",
+      "date_of_birth": "1987-09-30",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profile_photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-01-25T07:45:00Z",
+      "updated_at": "2024-01-26T15:30:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+86-138-0013-8000",
+        "phone_secondary": "+86-138-0013-8001",
+        "email": "chen.wei@email.com",
+        "emergency_contact_name": "Li Wei",
+        "emergency_contact_phone": "+86-138-0013-8002",
+        "emergency_contact_relation": "Wife"
+      },
+      "documents": {
+        "passport_number": "E5678901",
+        "passport_country": "China",
+        "passport_issue_date": "2020-09-30",
+        "passport_expiry_date": "2030-09-30",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V1234567",
+        "visa_type": "Business",
+        "visa_issue_date": "2024-01-22",
+        "visa_expiry_date": "2024-04-22",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Karnataka",
+          "city": "Bangalore",
+          "postal_code": "560001",
+          "address_line": "654 Tech Park Hotel, Electronic City",
+          "hotel_name": "Tech Park Hotel Bangalore",
+          "room_number": "1808",
+          "check_in_date": "2024-01-25",
+          "check_out_date": "2024-02-10",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-01-25",
+        "departure_date": "2024-02-10",
+        "arrival_flight": "CA123",
+        "departure_flight": "CA124",
+        "arrival_airport": "Kempegowda International Airport",
+        "departure_airport": "Kempegowda International Airport",
+        "travel_purpose": "business",
+        "travel_duration_days": 16,
+        "budget_range": "high",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Tech Park Hotel Bangalore",
+          "latitude": 12.9716,
+          "longitude": 77.5946,
+          "description": "Checked into tech hotel",
+          "timestamp": "2024-01-25T22:30:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Electronic City, Bangalore",
+          "latitude": 12.8456,
+          "longitude": 77.6603,
+          "description": "Business meetings in tech park",
+          "timestamp": "2024-01-26T09:15:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "digital_id": "T001239",
+      "first_name": "Priya",
+      "last_name": "Patel",
+      "full_name": "Priya Patel",
+      "date_of_birth": "1995-12-03",
+      "gender": "female",
+      "nationality": "Indian-American",
+      "profile_photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-01-28T12:15:00Z",
+      "updated_at": "2024-01-29T08:45:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+91-8765432109",
+        "phone_secondary": "+1-555-9876",
+        "email": "priya.patel@email.com",
+        "emergency_contact_name": "Raj Patel",
+        "emergency_contact_phone": "+1-555-9877",
+        "emergency_contact_relation": "Father"
+      },
+      "documents": {
+        "passport_number": "F6789012",
+        "passport_country": "United States",
+        "passport_issue_date": "2021-12-03",
+        "passport_expiry_date": "2031-12-03",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V2345678",
+        "visa_type": "OCI",
+        "visa_issue_date": "2024-01-25",
+        "visa_expiry_date": "2034-01-25",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Gujarat",
+          "city": "Ahmedabad",
+          "postal_code": "380001",
+          "address_line": "987 Heritage House, Old City",
+          "hotel_name": "Heritage House Ahmedabad",
+          "room_number": "Suite 5",
+          "check_in_date": "2024-01-28",
+          "check_out_date": "2024-02-15",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-01-28",
+        "departure_date": "2024-02-15",
+        "arrival_flight": "AI201",
+        "departure_flight": "AI202",
+        "arrival_airport": "Sardar Vallabhbhai Patel International Airport",
+        "departure_airport": "Sardar Vallabhbhai Patel International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 18,
+        "budget_range": "medium",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Heritage House Ahmedabad",
+          "latitude": 23.0225,
+          "longitude": 72.5714,
+          "description": "Checked into heritage house",
+          "timestamp": "2024-01-28T19:20:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Sabarmati Ashram",
+          "latitude": 23.0604,
+          "longitude": 72.5805,
+          "description": "Visited Gandhi's ashram",
+          "timestamp": "2024-01-29T10:30:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "digital_id": "T001240",
+      "first_name": "David",
+      "last_name": "Brown",
+      "full_name": "David Brown",
+      "date_of_birth": "1983-06-18",
+      "gender": "male",
+      "nationality": "Australian",
+      "profile_photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-01-30T09:30:00Z",
+      "updated_at": "2024-02-01T11:15:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+61-412-345-678",
+        "phone_secondary": "+61-412-345-679",
+        "email": "david.brown@email.com",
+        "emergency_contact_name": "Emma Brown",
+        "emergency_contact_phone": "+61-412-345-680",
+        "emergency_contact_relation": "Wife"
+      },
+      "documents": {
+        "passport_number": "G7890123",
+        "passport_country": "Australia",
+        "passport_issue_date": "2019-06-18",
+        "passport_expiry_date": "2029-06-18",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V3456789",
+        "visa_type": "Tourist",
+        "visa_issue_date": "2024-01-28",
+        "visa_expiry_date": "2024-07-28",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Himachal Pradesh",
+          "city": "Manali",
+          "postal_code": "175131",
+          "address_line": "147 Mountain Resort, Old Manali",
+          "hotel_name": "Mountain Resort Manali",
+          "room_number": "Cabin 8",
+          "check_in_date": "2024-01-30",
+          "check_out_date": "2024-02-12",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-01-30",
+        "departure_date": "2024-02-12",
+        "arrival_flight": "QF456",
+        "departure_flight": "QF457",
+        "arrival_airport": "Chandigarh International Airport",
+        "departure_airport": "Chandigarh International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 13,
+        "budget_range": "medium",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Mountain Resort Manali",
+          "latitude": 32.2432,
+          "longitude": 77.1892,
+          "description": "Checked into mountain resort",
+          "timestamp": "2024-01-30T17:45:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Rohtang Pass",
+          "latitude": 32.3700,
+          "longitude": 77.2500,
+          "description": "Adventure activities at Rohtang Pass",
+          "timestamp": "2024-01-31T08:30:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "digital_id": "T001241",
+      "first_name": "Anna",
+      "last_name": "Kowalski",
+      "full_name": "Anna Kowalski",
+      "date_of_birth": "1991-02-14",
+      "gender": "female",
+      "nationality": "Polish",
+      "profile_photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-02-02T15:20:00Z",
+      "updated_at": "2024-02-03T12:30:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+48-123-456-789",
+        "phone_secondary": "+48-123-456-790",
+        "email": "anna.kowalski@email.com",
+        "emergency_contact_name": "Piotr Kowalski",
+        "emergency_contact_phone": "+48-123-456-791",
+        "emergency_contact_relation": "Brother"
+      },
+      "documents": {
+        "passport_number": "H8901234",
+        "passport_country": "Poland",
+        "passport_issue_date": "2021-02-14",
+        "passport_expiry_date": "2031-02-14",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V4567890",
+        "visa_type": "Tourist",
+        "visa_issue_date": "2024-01-30",
+        "visa_expiry_date": "2024-07-30",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Tamil Nadu",
+          "city": "Chennai",
+          "postal_code": "600001",
+          "address_line": "258 Cultural Hotel, Mylapore",
+          "hotel_name": "Cultural Hotel Chennai",
+          "room_number": "312",
+          "check_in_date": "2024-02-02",
+          "check_out_date": "2024-02-18",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-02-02",
+        "departure_date": "2024-02-18",
+        "arrival_flight": "LO789",
+        "departure_flight": "LO790",
+        "arrival_airport": "Chennai International Airport",
+        "departure_airport": "Chennai International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 16,
+        "budget_range": "low",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Cultural Hotel Chennai",
+          "latitude": 13.0827,
+          "longitude": 80.2707,
+          "description": "Checked into cultural hotel",
+          "timestamp": "2024-02-02T21:15:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Kapaleeshwarar Temple",
+          "latitude": 13.0339,
+          "longitude": 80.2620,
+          "description": "Visited ancient temple",
+          "timestamp": "2024-02-03T07:45:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "digital_id": "T001242",
+      "first_name": "Mohammed",
+      "last_name": "Ali",
+      "full_name": "Mohammed Ali",
+      "date_of_birth": "1986-08-25",
+      "gender": "male",
+      "nationality": "Pakistani",
+      "profile_photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-02-05T13:45:00Z",
+      "updated_at": "2024-02-06T09:20:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+91-7654321098",
+        "phone_secondary": "+92-300-123-4567",
+        "email": "mohammed.ali@email.com",
+        "emergency_contact_name": "Aisha Ali",
+        "emergency_contact_phone": "+92-300-123-4568",
+        "emergency_contact_relation": "Wife"
+      },
+      "documents": {
+        "passport_number": "I9012345",
+        "passport_country": "Pakistan",
+        "passport_issue_date": "2020-08-25",
+        "passport_expiry_date": "2030-08-25",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V5678901",
+        "visa_type": "Tourist",
+        "visa_issue_date": "2024-02-02",
+        "visa_expiry_date": "2024-08-02",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "city": "Agra",
+          "postal_code": "282001",
+          "address_line": "369 Heritage Hotel, Near Taj Mahal",
+          "hotel_name": "Heritage Hotel Agra",
+          "room_number": "Deluxe 25",
+          "check_in_date": "2024-02-05",
+          "check_out_date": "2024-02-20",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-02-05",
+        "departure_date": "2024-02-20",
+        "arrival_flight": "PK123",
+        "departure_flight": "PK124",
+        "arrival_airport": "Indira Gandhi International Airport",
+        "departure_airport": "Indira Gandhi International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 15,
+        "budget_range": "medium",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Heritage Hotel Agra",
+          "latitude": 27.1767,
+          "longitude": 78.0081,
+          "description": "Checked into heritage hotel",
+          "timestamp": "2024-02-05T18:30:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Taj Mahal",
+          "latitude": 27.1751,
+          "longitude": 78.0421,
+          "description": "Visited Taj Mahal",
+          "timestamp": "2024-02-06T06:00:00Z"
+        }
+      ],
+      "security_alerts": []
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440010",
+      "digital_id": "T001243",
+      "first_name": "Lisa",
+      "last_name": "Anderson",
+      "full_name": "Lisa Anderson",
+      "date_of_birth": "1993-10-07",
+      "gender": "female",
+      "nationality": "Canadian",
+      "profile_photo": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+      "created_at": "2024-02-08T10:15:00Z",
+      "updated_at": "2024-02-09T14:40:00Z",
+      "status": "active",
+      "contacts": {
+        "phone_primary": "+1-416-555-0123",
+        "phone_secondary": "+1-416-555-0124",
+        "email": "lisa.anderson@email.com",
+        "emergency_contact_name": "Robert Anderson",
+        "emergency_contact_phone": "+1-416-555-0125",
+        "emergency_contact_relation": "Father"
+      },
+      "documents": {
+        "passport_number": "J0123456",
+        "passport_country": "Canada",
+        "passport_issue_date": "2021-10-07",
+        "passport_expiry_date": "2031-10-07",
+        "passport_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop",
+        "visa_number": "V6789012",
+        "visa_type": "Tourist",
+        "visa_issue_date": "2024-02-05",
+        "visa_expiry_date": "2024-08-05",
+        "visa_photo": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop"
+      },
+      "addresses": [
+        {
+          "type": "current",
+          "country": "India",
+          "state": "West Bengal",
+          "city": "Kolkata",
+          "postal_code": "700001",
+          "address_line": "741 Colonial Hotel, Park Street",
+          "hotel_name": "Colonial Hotel Kolkata",
+          "room_number": "Suite 12",
+          "check_in_date": "2024-02-08",
+          "check_out_date": "2024-02-25",
+          "is_primary": true
+        }
+      ],
+      "travel": {
+        "arrival_date": "2024-02-08",
+        "departure_date": "2024-02-25",
+        "arrival_flight": "AC456",
+        "departure_flight": "AC457",
+        "arrival_airport": "Netaji Subhas Chandra Bose International Airport",
+        "departure_airport": "Netaji Subhas Chandra Bose International Airport",
+        "travel_purpose": "tourism",
+        "travel_duration_days": 17,
+        "budget_range": "high",
+        "travel_insurance": true
+      },
+      "recent_activities": [
+        {
+          "type": "check_in",
+          "location": "Colonial Hotel Kolkata",
+          "latitude": 22.5726,
+          "longitude": 88.3639,
+          "description": "Checked into colonial hotel",
+          "timestamp": "2024-02-08T20:45:00Z"
+        },
+        {
+          "type": "location_update",
+          "location": "Victoria Memorial",
+          "latitude": 22.5448,
+          "longitude": 88.3426,
+          "description": "Visited Victoria Memorial",
+          "timestamp": "2024-02-09T10:15:00Z"
+        }
+      ],
+      "security_alerts": []
+    }
+  ]
+}
