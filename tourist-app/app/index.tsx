@@ -1,19 +1,13 @@
-import { Text, View } from "react-native";
-import { BookmarkCheck } from "lucide-react-native";
+import { useEffect } from "react";
+import { useRouter } from "expo-router";
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <BookmarkCheck className="text-black" />
-      <Text className="text-red-500">
-        Edit app/index.tsx to edit this screen.
-      </Text>
-    </View>
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    // redirect to QR page on app start
+    router.replace("/QR");
+  }, []);
+
+  return null;
 }
