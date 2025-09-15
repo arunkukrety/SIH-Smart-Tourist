@@ -1,0 +1,289 @@
+{
+  "pendingUsers": [
+    {
+      "id": "verify-001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@email.com",
+      "phone": "+1-555-0123",
+      "nationality": "American",
+      "dateOfBirth": "1985-03-15",
+      "submittedAt": "2024-01-15T10:30:00Z",
+      "status": "pending",
+      "notes": null,
+      "documents": [
+        {
+          "id": "doc-001-1",
+          "type": "passport",
+          "name": "US Passport - John Smith",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-15T10:25:00Z",
+          "status": "pending",
+          "metadata": {
+            "passportNumber": "A1234567",
+            "issueDate": "2020-01-15",
+            "expiryDate": "2030-01-15",
+            "country": "United States"
+          }
+        },
+        {
+          "id": "doc-001-2",
+          "type": "visa",
+          "name": "Tourist Visa - India",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-15T10:28:00Z",
+          "status": "pending",
+          "metadata": {
+            "visaNumber": "V7890123",
+            "type": "Tourist",
+            "issueDate": "2024-01-10",
+            "expiryDate": "2024-07-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "verify-002",
+      "firstName": "Maria",
+      "lastName": "Garcia",
+      "email": "maria.garcia@email.com",
+      "phone": "+34-666-789-012",
+      "nationality": "Spanish",
+      "dateOfBirth": "1988-12-03",
+      "submittedAt": "2024-01-14T14:20:00Z",
+      "status": "under_review",
+      "notes": "Documents look good, need to verify visa validity",
+      "documents": [
+        {
+          "id": "doc-002-1",
+          "type": "passport",
+          "name": "Spanish Passport - Maria Garcia",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-14T14:15:00Z",
+          "status": "verified",
+          "metadata": {
+            "passportNumber": "ES9876543",
+            "issueDate": "2019-06-20",
+            "expiryDate": "2029-06-20",
+            "country": "Spain"
+          }
+        },
+        {
+          "id": "doc-002-2",
+          "type": "visa",
+          "name": "Business Visa - India",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-14T14:18:00Z",
+          "status": "pending",
+          "metadata": {
+            "visaNumber": "V4567890",
+            "type": "Business",
+            "issueDate": "2024-01-05",
+            "expiryDate": "2024-12-05"
+          }
+        },
+        {
+          "id": "doc-002-3",
+          "type": "id_card",
+          "name": "Spanish National ID",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-14T14:20:00Z",
+          "status": "verified",
+          "metadata": {
+            "idNumber": "12345678Z",
+            "issueDate": "2018-03-10",
+            "expiryDate": "2028-03-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "verify-003",
+      "firstName": "Ahmed",
+      "lastName": "Hassan",
+      "email": "ahmed.hassan@email.com",
+      "phone": "+20-100-123-4567",
+      "nationality": "Egyptian",
+      "dateOfBirth": "1992-08-22",
+      "submittedAt": "2024-01-13T09:45:00Z",
+      "status": "pending",
+      "notes": null,
+      "documents": [
+        {
+          "id": "doc-003-1",
+          "type": "passport",
+          "name": "Egyptian Passport - Ahmed Hassan",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-13T09:40:00Z",
+          "status": "pending",
+          "metadata": {
+            "passportNumber": "EG5556667",
+            "issueDate": "2021-04-15",
+            "expiryDate": "2031-04-15",
+            "country": "Egypt"
+          }
+        },
+        {
+          "id": "doc-003-2",
+          "type": "visa",
+          "name": "Tourist Visa - India",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-13T09:43:00Z",
+          "status": "pending",
+          "metadata": {
+            "visaNumber": "V1112223",
+            "type": "Tourist",
+            "issueDate": "2024-01-08",
+            "expiryDate": "2024-06-08"
+          }
+        }
+      ]
+    },
+    {
+      "id": "verify-004",
+      "firstName": "Sarah",
+      "lastName": "Johnson",
+      "email": "sarah.johnson@email.com",
+      "phone": "+44-7700-900123",
+      "nationality": "British",
+      "dateOfBirth": "1990-11-18",
+      "submittedAt": "2024-01-12T16:15:00Z",
+      "status": "pending",
+      "notes": null,
+      "documents": [
+        {
+          "id": "doc-004-1",
+          "type": "passport",
+          "name": "UK Passport - Sarah Johnson",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-12T16:10:00Z",
+          "status": "pending",
+          "metadata": {
+            "passportNumber": "GB9998887",
+            "issueDate": "2022-02-10",
+            "expiryDate": "2032-02-10",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "id": "doc-004-2",
+          "type": "visa",
+          "name": "Student Visa - India",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-12T16:12:00Z",
+          "status": "pending",
+          "metadata": {
+            "visaNumber": "V4445556",
+            "type": "Student",
+            "issueDate": "2024-01-05",
+            "expiryDate": "2025-01-05"
+          }
+        },
+        {
+          "id": "doc-004-3",
+          "type": "other",
+          "name": "University Admission Letter",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-12T16:15:00Z",
+          "status": "pending",
+          "metadata": {
+            "institution": "Delhi University",
+            "course": "MBA",
+            "duration": "2 years"
+          }
+        }
+      ]
+    },
+    {
+      "id": "verify-005",
+      "firstName": "Chen",
+      "lastName": "Wei",
+      "email": "chen.wei@email.com",
+      "phone": "+86-138-0013-8000",
+      "nationality": "Chinese",
+      "dateOfBirth": "1987-05-30",
+      "submittedAt": "2024-01-11T11:30:00Z",
+      "status": "under_review",
+      "notes": "Passport verification in progress, visa looks valid",
+      "documents": [
+        {
+          "id": "doc-005-1",
+          "type": "passport",
+          "name": "Chinese Passport - Chen Wei",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-11T11:25:00Z",
+          "status": "under_review",
+          "metadata": {
+            "passportNumber": "CN7778889",
+            "issueDate": "2020-08-15",
+            "expiryDate": "2030-08-15",
+            "country": "China"
+          }
+        },
+        {
+          "id": "doc-005-2",
+          "type": "visa",
+          "name": "Work Visa - India",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-11T11:28:00Z",
+          "status": "verified",
+          "metadata": {
+            "visaNumber": "V7778889",
+            "type": "Work",
+            "issueDate": "2024-01-01",
+            "expiryDate": "2024-12-31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "verify-006",
+      "firstName": "Pierre",
+      "lastName": "Dubois",
+      "email": "pierre.dubois@email.com",
+      "phone": "+33-6-12-34-56-78",
+      "nationality": "French",
+      "dateOfBirth": "1983-09-12",
+      "submittedAt": "2024-01-10T13:45:00Z",
+      "status": "pending",
+      "notes": null,
+      "documents": [
+        {
+          "id": "doc-006-1",
+          "type": "passport",
+          "name": "French Passport - Pierre Dubois",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-10T13:40:00Z",
+          "status": "pending",
+          "metadata": {
+            "passportNumber": "FR1234567",
+            "issueDate": "2021-12-01",
+            "expiryDate": "2031-12-01",
+            "country": "France"
+          }
+        },
+        {
+          "id": "doc-006-2",
+          "type": "visa",
+          "name": "Tourist Visa - India",
+          "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+          "uploadedAt": "2024-01-10T13:43:00Z",
+          "status": "pending",
+          "metadata": {
+            "visaNumber": "V3334445",
+            "type": "Tourist",
+            "issueDate": "2024-01-03",
+            "expiryDate": "2024-07-03"
+          }
+        }
+      ]
+    }
+  ],
+  "verificationStats": {
+    "totalPending": 4,
+    "underReview": 2,
+    "approved": 0,
+    "rejected": 0,
+    "totalApplications": 6
+  }
+}
